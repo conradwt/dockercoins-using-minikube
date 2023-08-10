@@ -11,7 +11,7 @@ The purpose of this example is to provide instructions for running the Dockercoi
 ## Create Cluster
 
 ```zsh
-minikube start --profile=dockercoins --nodes=3 --kubernetes-version=v1.27.2
+minikube start --profile=dockercoins --nodes=3 --kubernetes-version=v1.27.4
 ```
 
 Note: Servers represent the control plan nodes and agents represents the worker nodes. For additional information, please read [here](https://rancher.com/docs/k3s/latest/en/architecture).
