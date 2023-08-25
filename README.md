@@ -6,12 +6,14 @@ The purpose of this example is to provide instructions for running the Dockercoi
 
 - Docker Desktop For Mac 4.21.1 or newer
 
+- Kubectl 1.28.0 or newer
+
 - Minikube 1.30.1 or newer
 
 ## Create Cluster
 
 ```zsh
-minikube start --profile=dockercoins --nodes=3 --kubernetes-version=v1.27.4
+minikube start --profile=dockercoins --nodes=3 --kubernetes-version=v1.28.1
 ```
 
 Note: Servers represent the control plan nodes and agents represents the worker nodes. For additional information, please read [here](https://rancher.com/docs/k3s/latest/en/architecture).
