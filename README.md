@@ -4,19 +4,18 @@ The purpose of this example is to provide instructions for running the Dockercoi
 
 ## Software Requirements
 
-- Docker Desktop For Mac 4.26.1 or newer
+- Docker Desktop For Mac 4.46.0 or newer
 
-- Kubectl 1.29.1 or newer
+- Kubectl 1.33.4 or newer
 
-- Minikube 1.32.0 or newer
+- Minikube 1.36.0 or newer
 
 ## Create Cluster
 
 ```zsh
-minikube start --profile=dockercoins --nodes=3 --kubernetes-version=v1.29.1
+minikube start --profile=dockercoins --nodes=3 --kubernetes-version=v1.33.4
+minikube profile dockercoins
 ```
-
-Note: Servers represent the control plan nodes and agents represents the worker nodes. For additional information, please read [here](https://rancher.com/docs/k3s/latest/en/architecture).
 
 ## Create Necessary Environment Variables
 
@@ -89,4 +88,4 @@ Dockercoins Using Minikube is released under the [MIT license](./LICENSE.md).
 
 ## Copyright
 
-copyright:: (c) Copyright 2020 - 2024 Conrad Taylor. All Rights Reserved.
+copyright:: (c) Copyright 2020 - 2025 Conrad Taylor. All Rights Reserved.
